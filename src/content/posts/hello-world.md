@@ -2,7 +2,7 @@
 title: 你好，世界：我的博客从这里开始
 published: 2026-07-06
 description: 为什么要重新拥有一块属于自己的互联网角落，以及我准备在这里记录些什么。
-image: /assets/bocchi-hero.webp
+image: /assets/rain-hero.webp
 tags: [博客, 随笔, 开始]
 category: 日常
 draft: false

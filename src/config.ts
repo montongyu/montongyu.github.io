@@ -12,12 +12,12 @@ export const siteConfig: SiteConfig = {
 	subtitle: "代码 · 灵感 · 日常",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
-		hue: 345, // Pink, matching the banner artwork
+		hue: 220, // Cool indigo blue, matching the rainy banner artwork
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
 		enable: true,
-		src: "/assets/bocchi-hero.webp", // Optimized from the user-provided artwork
+		src: "/assets/rain-hero.webp", // Optimized from the user-provided artwork
 		position: "center", // Equivalent to object-position, only supports 'top', 'center', 'bottom'. 'center' by default
 		credit: {
 			enable: false, // Display the credit text of the banner image
