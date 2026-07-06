@@ -1,11 +1,13 @@
-# montongyu 的个人博客
+# montongyu 的小宇宙
 
-一个轻量、响应式的静态个人博客，托管于 GitHub Pages。
+个人博客：[https://montongyu.github.io/](https://montongyu.github.io/)
 
-## 发布新文章
+基于 MIT 许可的 [Fuwari](https://github.com/saicaca/fuwari) 模板与 Astro 构建，支持响应式布局、亮/暗色主题、文章归档、搜索和 Markdown 写作。
 
-1. 复制 `posts/hello-world.html` 并修改文件名与内容。
-2. 在 `index.html` 的 `.article-grid` 中增加一张文章卡片。
-3. 提交并推送到 `main` 分支，GitHub Pages 会自动更新。
+## 写一篇新文章
 
-站点不依赖构建工具，HTML、CSS 和 JavaScript 可直接运行。
+```bash
+pnpm new-post 文章文件名
+```
+
+然后编辑 `src/content/posts/文章文件名.md`。推送到 `main` 后，GitHub Actions 会自动构建并发布。
