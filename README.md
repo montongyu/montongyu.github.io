@@ -1,4 +1,4 @@
-# montongyu 的小宇宙
+# montongyu 的博客
 
 个人博客：[https://montongyu.github.io/](https://montongyu.github.io/)
 
