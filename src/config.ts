@@ -8,11 +8,11 @@ import type {
 import { LinkPreset } from "./types/config";
 
 export const siteConfig: SiteConfig = {
-	title: "montongyu 的小宇宙",
+	title: "montongyu 的博客",
 	subtitle: "代码 · 灵感 · 日常",
 	lang: "zh_CN", // Language code, e.g. 'en', 'zh_CN', 'ja', etc.
 	themeColor: {
-		hue: 220, // Cool indigo blue, matching the rainy banner artwork
+		hue: 260, // Cool indigo blue, matching the rainy banner artwork
 		fixed: false, // Hide the theme color picker for visitors
 	},
 	banner: {
