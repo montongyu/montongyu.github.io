@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="montongyu 的个人博客，记录技术、学习与生活。">
+  <meta name="theme-color" content="#f4f1ea">
+  <title>montongyu — 个人博客</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Noto+Serif+SC:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="回到首页">M<span>·</span></a>
+    <nav aria-label="主导航">
+      <a href="#articles">文章</a>
+      <a href="#about">关于</a>
+      <a href="https://github.com/montongyu" target="_blank" rel="noreferrer">GitHub</a>
+    </nav>
+    <button class="theme-toggle" type="button" aria-label="切换深色模式" title="切换主题">
+      <span aria-hidden="true">◐</span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="eyebrow">HELLO, WORLD</div>
+      <h1 id="hero-title">你好，我是<br><em>montongyu</em>。</h1>
+      <p class="hero-copy">在这里记录代码、思考与那些值得被保存的日常。慢慢写，认真生活。</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#articles">开始阅读 <span aria-hidden="true">↘</span></a>
+        <a class="text-link" href="#about">认识我 <span aria-hidden="true">→</span></a>
+      </div>
+      <div class="orbit" aria-hidden="true">
+        <div class="orbit-ring"></div>
+        <div class="orbit-dot"></div>
+        <span>思考</span><span>创造</span><span>记录</span>
+      </div>
+    </section>
+
+    <section class="articles section" id="articles" aria-labelledby="articles-title">
+      <div class="section-heading">
+        <div>
+          <p class="kicker">LATEST NOTES</p>
+          <h2 id="articles-title">最近文章</h2>
+        </div>
+        <p>不定期更新，但每一篇都认真写。</p>
+      </div>
+
+      <div class="article-grid">
+        <article class="featured-card">
+          <div class="card-index">01</div>
+          <div class="card-body">
+            <div class="meta"><time datetime="2026-07-06">2026.07.06</time><span>3 分钟阅读</span></div>
+            <h3><a href="posts/hello-world.html">你好，世界：我的博客从这里开始</a></h3>
+            <p>为什么要重新拥有一块属于自己的互联网角落，以及我准备在这里记录些什么。</p>
+            <a class="read-more" href="posts/hello-world.html" aria-label="阅读：你好，世界">阅读全文 <span>↗</span></a>
+          </div>
+          <div class="card-mark" aria-hidden="true">初</div>
+        </article>
+
+        <article class="note-card coming-soon">
+          <div class="meta"><span>随笔</span><span>即将发布</span></div>
+          <h3>下一篇文章，正在路上</h3>
+          <p>新的学习、项目或生活片段，会在这里与你见面。</p>
+          <span class="ghost-arrow" aria-hidden="true">→</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="about-number" aria-hidden="true">02</div>
+      <div class="about-copy">
+        <p class="kicker">ABOUT ME</p>
+        <h2 id="about-title">好奇心是我<br>最稳定的导航。</h2>
+      </div>
+      <div class="about-detail">
+        <p>嗨，我是 montongyu。喜欢把复杂的问题拆开，把模糊的想法做成看得见、用得上的东西。</p>
+        <p>这个博客是我的长期笔记本：关于编程、项目实践，也关于学习途中偶然捡到的灵感。</p>
+        <div class="tags" aria-label="兴趣标签">
+          <span>CODE</span><span>BUILD</span><span>LEARN</span>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© <span id="year">2026</span> montongyu</p>
+    <p>Built with curiosity &amp; GitHub Pages.</p>
+    <a href="#top">回到顶部 ↑</a>
+  </footer>
+</body>
+</html>
